@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="md_ext",
-    version="0.0.2",
+    version="0.0.1",
     author="Omid Raha",
     author_email="or@omidraha.com",
     description="Markdown extensions",
