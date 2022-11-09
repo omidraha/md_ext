@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/omidraha/md_ext",
-    download_url="https://github.com/omidraha/md_ext/archive/c85f6c5501d107d117e3c917a2b0b006f6e2354f.zip",
+    download_url="https://github.com/omidraha/md_ext/archive/refs/tags/0.0.2.tar.gz",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
