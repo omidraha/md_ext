@@ -11,7 +11,7 @@ setuptools.setup(
     description="Markdown extensions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/omidraha/md_ext",
+    url="git+https://github.com/omidraha/md_ext@c85f6c5501d107d117e3c917a2b0b006f6e2354f",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
