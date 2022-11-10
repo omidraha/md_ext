@@ -1,7 +1,17 @@
 README
 =======
 
-Extra third party extensions for python ``Python-Markdown``
+Extra third party extensions for ``Python-Markdown``
+
+Install
+--------
+
+```bash
+  $ pip install md_ext
+```
+
+Usage
+-----
 
 ```python
 
