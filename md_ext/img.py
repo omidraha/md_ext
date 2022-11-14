@@ -21,7 +21,10 @@ class ImageSize(SimpleTextInlineProcessor):
 
     def handleMatch(self, m, data):
         img = ElementTree.Element('img')
-        src = re.search(IMG_SRC_RE, data).group(1)
+        matched = re.search(IMG_SRC_RE, data)
+        if not matched:
+            return None, None, None
+        src = matched.group(1)
         img.set('src', src)
         img.set('width', m.group(1).split('=')[1])
         return img, 0, len(data)
